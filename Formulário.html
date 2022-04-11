@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Formulário/Formulário.css" media="screen">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="campo">
+        <h1 id="Titulo">Cadastro de funcionário</h1>
+        <br>
+        <p id="Subtitulo">Digite suas informações abaixo:</p>
+        <br>
+
+        </div>
+        <form>
+            <fieldset class="Grupo">
+                <div class="campo">
+                    <Label><strong>Nome Completo:</strong></Label>
+                    <input type="text"name="Nome completo" id="Nome completo" required>
+                </div>
+
+            </fieldset>
+
+            <div>
+                <label><strong>Email:</label></strong></label>
+                <input type="Email" name=" Email" id="Email" required>
+            </div>
+            <div class="campo">
+                <label><strong>Em que setor você trabalha?</strong></label>
+                <label>
+                    <input type="radio" name="Pessoal" value="RH">Pessoal
+                </label>
+                <label>
+                    <input type="radio" name="Atendimento" value="CX">CX
+                </label>
+                <label>
+                    <input type="radio" name="Devweb" value="Frontend">Desenvolvimento
+                </label>
+                <label>
+                    <input type="radio" name="Desing" value="UX">UX
+                </label>
+            </div>
+            <div class="campo">
+            <label for="De onde você trabalha?"><strong>De que estado você trabalha?</strong></label>
+            <select id="Estado">
+            <Option select disable value="">Escolha</Option>
+            <Option>Amapa</Option>
+            <Option>Bahia</Option>
+            <Option>Ceará</Option>
+            <Option>DF</Option>
+            <Option>Espirito Santo</Option>
+            <Option>Sp</Option>
+            </select>
+            </div>
+            <fieldset class="Grupo">
+                <div class="campo">
+                    <label for="Selecione os benefícios"><strong>Quais os benefícios que você gostaria de receber:</strong></label>
+                    <input type="checkbox" id="Vr" name="Vale Refeição" value="Vale Refeição">
+                    <label for="Vale Refeição">Vale Refeição</label>
+                    <input type="checkbox" id="Vale Transporte" name="Vale transporte" value="Vale Transporte">
+                    <label for="Vale Transporte">Vale Transporte</label>
+                    <input type="checkbox" id="Auxílio Gasolina" name="Auxílio" value="Auxílio Gasolina">
+                    <label for="Auxílio Gasolina"> Gasolina</label>
+                    <input type="checkbox" id="Auxílio Creche" name="Auxílio" value="Auxílio Creche">
+                    <label for="Auxílio Creche"> Auxílio Creche</label>
+                    
+                </div>
+            </fieldset>
+
+            <div class="campo">
+                <br>
+                <label for="O que você cachou desse formulátio?"><strong>O que você achou desse Formulário?</strong></label>
+                <br>
+                <textarea rows="7" style="width:28em" id="sobre o forms" name="Oque você achou?"></textarea>
+            </div>
+            <button type="submit">Concluir</button>
+        </form>
+    
+</body>
+</html>
