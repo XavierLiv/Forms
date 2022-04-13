@@ -5,21 +5,17 @@
     border-width: 2px;
     padding: 2px;
     background-size: auto;
-    
-}
+  }
 
 #Titulo{
     font-family: Georgia;
     color:rgb(160, 122, 194);
     margin-left: 8%;
-    
- 
-}
+  }
 #Subtitulo{
     font-family: Georgia;
     color:rgb(160, 122, 194);
     margin-left: 8%;
-
 }
 fieldset{
     border: 0;
