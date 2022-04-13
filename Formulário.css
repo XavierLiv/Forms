@@ -50,13 +50,13 @@ body{
         border: 2px solid #4f378d;
         box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
         display: block;
-    }
+ }
     .campo select option {
         padding-right: 1em;
-    }
+ }
     .campo input:focus, .campo select:focus, .campo textarea:focus{
         background: #e0e0f8;
-    }
+ }
     .botao {
         font-size: 1.2em;
         background: #4f378d;
@@ -66,4 +66,4 @@ body{
         padding: 0.2em 0.6em;
         box-shadow:2px 2px 2px rgb(0,0,0,0.2);
 
-    }
+ }
